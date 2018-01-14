@@ -1,0 +1,35 @@
+{
+  "name": "mrliptontea-themes",
+  "displayName": "mrliptontea's themes",
+  "description": "A collection of personal themes for Visual Studio Code",
+  "version": "1.0.0",
+  "publisher": "mrliptontea",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mrliptontea/vscode-themes/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mrliptontea/vscode-themes"
+  },
+  "engines": {
+    "vscode": "^1.18.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Light mrliptontea",
+        "uiTheme": "vs",
+        "path": "./themes/mrliptontea-light.json"
+      },
+      {
+        "label": "Dark mrliptontea",
+        "uiTheme": "vs-dark",
+        "path": "./themes/mrliptontea-dark.json"
+      }
+    ]
+  }
+}
