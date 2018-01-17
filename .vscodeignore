@@ -1,2 +1,4 @@
-docs
-docs/*.*
+samples
+samples/*.*
+static
+static/*.*

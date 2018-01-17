@@ -76,7 +76,7 @@
 
         "editor.background": "#1f282e",
         "editor.foreground": "#e0e0e0",
-        "editorLineNumber.foreground": "#c0dae433",
+        "editorLineNumber.foreground": "#c0dae455",
         "editorCursor.foreground": "#64ffda",
 
         "editor.selectionBackground": "#4fc3f725",
@@ -790,7 +790,8 @@
             "scope": [
                 "meta.structure.dictionary.key.python",
                 "meta.object-literal.key",
-                "meta.object-literal.key entity.name.function"
+                "meta.object-literal.key entity.name.function",
+                "keyword.other.class"
             ],
             "settings": {
                 "foreground": "#ffb74d"

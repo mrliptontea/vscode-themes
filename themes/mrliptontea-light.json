@@ -121,7 +121,7 @@
         "editorInfo.foreground": "#1565c0",
         "editorInfo.border": "#1565c055",
 
-        "editorGutter.background": "#ffffff",
+        "editorGutter.background": "#00000005",
         "editorGutter.modifiedBackground": "#2979ff99",
         "editorGutter.addedBackground": "#00e67699",
         "editorGutter.deletedBackground": "#ff525299",
@@ -757,7 +757,7 @@
             "name": "Namespaces",
             "scope": "support.other.namespace",
             "settings": {
-                "foreground": "#512da8"
+                "foreground": "#00897b"
             }
         },
         {
@@ -789,7 +789,8 @@
             "scope": [
                 "meta.structure.dictionary.key.python",
                 "meta.object-literal.key",
-                "meta.object-literal.key entity.name.function"
+                "meta.object-literal.key entity.name.function",
+                "keyword.other.class"
             ],
             "settings": {
                 "foreground": "#990073"
