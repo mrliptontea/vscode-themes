@@ -869,7 +869,7 @@
             "name": "Regular expression quantifiers",
             "scope": "keyword.operator.quantifier.regexp",
             "settings": {
-                "foreground": "#ff5252"
+                "foreground": "#4fc3f7"
             }
         },
         {
