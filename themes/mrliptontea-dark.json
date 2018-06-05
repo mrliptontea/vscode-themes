@@ -80,14 +80,16 @@
         "editorCursor.foreground": "#64ffda",
 
         "editor.selectionBackground": "#4fc3f725",
-        "editor.selectionHighlightBackground": "#4fc3f715",
+        "editor.selectionHighlightBackground": "#ffecb315",
 
         "editor.wordHighlightBackground": "#00e67625",
         "editor.wordHighlightStrongBackground": "#4fc3f725",
 
-        "editor.findMatchBackground": "#e64a1977",
-        "editor.findMatchHighlightBackground": "#e64a1955",
-        "editor.findRangeHighlightBackground": "#4fc3f715",
+        "editor.findMatchBorder": "#e64a1977",
+        "editor.findMatchBackground": "#e64a1955",
+        "editor.findMatchHighlightBorder": "#64ffda99",
+        "editor.findMatchHighlightBackground": "#64ffda11",
+        "editor.findRangeHighlightBackground": "#4fc3f711",
 
         "editor.hoverHighlightBackground": "#4fc3f725",
         "editor.lineHighlightBackground": "#607d8b20",
@@ -768,7 +770,7 @@
                 "support.other.namespace punctuation.separator"
             ],
             "settings": {
-                "foreground": "#e64a19"
+                "foreground": "#e0e0e0"
             }
         },
         {

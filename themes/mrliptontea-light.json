@@ -1,4 +1,5 @@
 {
+    "type": "light",
     "colors": {
         "focusBorder": "#00897baa",
         "foreground": "#212121",
@@ -79,20 +80,22 @@
         "editorCursor.foreground": "#0086b3",
 
         "editor.selectionBackground": "#1565c025",
-        "editor.selectionHighlightBackground": "#1565c015",
+        "editor.selectionHighlightBackground": "#fb8c0015",
 
         "editor.wordHighlightBackground": "#009b4225",
         "editor.wordHighlightStrongBackground": "#1565c025",
 
-        "editor.findMatchBackground": "#f57c0077",
-        "editor.findMatchHighlightBackground": "#f57c0055",
+        "editor.findMatchBorder": "#ffb74d77",
+        "editor.findMatchBackground": "#ffecb3",
+        "editor.findMatchHighlightBorder": "#0086b355",
+        "editor.findMatchHighlightBackground": "#0086b305",
         "editor.findRangeHighlightBackground": "#1565c015",
 
         "editor.hoverHighlightBackground": "#1565c025",
         "editor.lineHighlightBackground": "#96989615",
 
         "editorLink.activeForeground": "#1565c0",
-        "editor.rangeHighlightBackground": "#00000022",
+        "editor.rangeHighlightBackground": "#96989611",
         "editorWhitespace.foreground": "#00000033",
         "editorIndentGuide.background": "#00000022",
         "editorRuler.foreground": "#00000022",
@@ -767,7 +770,7 @@
                 "support.other.namespace punctuation.separator"
             ],
             "settings": {
-                "foreground": "#1565c0"
+                "foreground": "#212121"
             }
         },
         {
