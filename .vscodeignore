@@ -1,4 +1,3 @@
-samples
-samples/*.*
-static
-static/*.*
+.vscode/**
+samples/**
+static/**
