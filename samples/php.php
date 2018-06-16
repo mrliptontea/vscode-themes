@@ -2,8 +2,8 @@
 
 namespace Vendor\Package;
 
-use FooInterface;
 use BarClass as Bar;
+use FooInterface;
 use OtherVendor\OtherPackage\BazClass;
 
 class Foo extends Bar implements FooInterface

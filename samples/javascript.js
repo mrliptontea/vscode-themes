@@ -1,23 +1,15 @@
-/*!
- * body-parser
- * Copyright(c) 2014-2015 Douglas Christopher Wilson
- * MIT Licensed
- */
-
 'use strict'
 
 /**
  * Module dependencies.
  * @private
  */
-
 var deprecate = require('depd')('body-parser')
 
 /**
  * Cache of loaded parsers.
  * @private
  */
-
 var parsers = Object.create(null)
 
 /**
@@ -33,9 +25,10 @@ var parsers = Object.create(null)
  * Module exports.
  * @type {Parsers}
  */
-
-exports = module.exports = deprecate.function(bodyParser,
-  'bodyParser: use individual json/urlencoded middlewares')
+exports = module.exports = deprecate.function(
+  bodyParser,
+  'bodyParser: use individual json/urlencoded middlewares'
+)
 
 /**
  * JSON parser.
@@ -89,8 +82,7 @@ Object.defineProperty(exports, 'urlencoded', {
  * @deprecated
  * @public
  */
-
-function bodyParser (options) {
+function bodyParser(options) {
   var opts = {}
 
   // exclude type option
@@ -105,8 +97,8 @@ function bodyParser (options) {
   var _urlencoded = exports.urlencoded(opts)
   var _json = exports.json(opts)
 
-  return function bodyParser (req, res, next) {
-    _json(req, res, function (err) {
+  return function bodyParser(req, res, next) {
+    _json(req, res, function(err) {
       if (err) return next(err)
       _urlencoded(req, res, next)
     })
@@ -117,9 +109,8 @@ function bodyParser (options) {
  * Create a getter for loading a parser.
  * @private
  */
-
-function createParserGetter (name) {
-  return function get () {
+function createParserGetter(name) {
+  return function get() {
     return loadParser(name)
   }
 }
@@ -128,8 +119,7 @@ function createParserGetter (name) {
  * Load a parser module.
  * @private
  */
-
-function loadParser (parserName) {
+function loadParser(parserName) {
   var parser = parsers[parserName]
 
   if (parser !== undefined) {
